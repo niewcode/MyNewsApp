@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/main_layout">
+
+    <!--ListView to inflate the list-->
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".MainActivity"
+        android:id="@+id/list"
+        style="@style/list_view" />
+
+    <!--Empty Layout View (visible only when list has no items) -->
+    <TextView
+        android:id="@+id/empty_view"
+        style="@style/empty_layout" />
+
+    <!--Loads Progress Indicator for long loads -->
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/indeterminateBar"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

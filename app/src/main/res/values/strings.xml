@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="news_yes">News Alert</string>
+    <string name="news_no">No News Alert</string>
+    <string name="news_not_available">News Not Available</string>
+
+    <!-- Strings for NO RESOURCE Conditions-->
+    <string name="no_internet_connection">NO INTERNET CONNECTION, try again later.</string>
+    <string name="no_news">NO NEWS EVENTS FOUND, try again later.</string>
+
+</resources>
